@@ -1,6 +1,6 @@
 # Kanal 38 – Android Uygulaması
 
-Açılışta sadece Kanal 38 logosu gösterilir. Logoya dokunulunca canlı yayın (HLS / m3u8) açılır.
+Açılışta sadece Kanal 38 logosu gösterilir. Logoya dokunulunca canlı yayın (embed oynatıcı sayfası) WebView içinde açılır.
 Uygulama arka planda çalışmaz: geri tuşu yayını durdurup logoya döner, uygulamadan çıkınca yayın tamamen kapanır.
 
 ## APK'yı GitHub ile derleme
@@ -12,4 +12,4 @@ Uygulama arka planda çalışmaz: geri tuşu yayını durdurup logoya döner, uy
 
 ## Yayın adresini değiştirme
 
-`app/src/main/java/com/kanal38/app/MainActivity.kt` içindeki `STREAM_URL` değerini düzenle.
+`app/src/main/java/com/kanal38/app/MainActivity.kt` içindeki `EMBED_URL` değerini düzenle.
